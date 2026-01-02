@@ -1,3 +1,5 @@
+import { NextResponse } from "next/server";
+
 export const GET = () => {
-  return "Goq";
+  return new NextResponse("Goq");
 };
